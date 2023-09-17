@@ -31,7 +31,7 @@ public class ItemRepositoryImpl implements ItemRepository {
         entityManager.persist(item);
         entityManager.getTransaction().commit();
     }
-
+//jhyu
     @Override
     public Long findItemByName(String searchName) {
         TypedQuery<Long> items = entityManager
